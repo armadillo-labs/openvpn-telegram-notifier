@@ -4,8 +4,8 @@ This is a simple perl script which takes some basic informations from the enviro
 It dies with an non-zero exitcode if something is wrong like a missing/invalid config or if the telegram message could not be send. Currently it searches for curl or wget on the system an uses them if possible. 
 
 ## Example Config:
-    client-connect "/etc/openvpn/telegam_connect_notify.pl connect"
-    client-disconnect "/etc/openvpn/telegam_connect_notify.pl disconnect"
+    client-connect "/etc/openvpn/telegram_connect_notify.pl connect"
+    client-disconnect "/etc/openvpn/telegram_connect_notify.pl disconnect"
 
 The script supports exactly those to options and ignores everything else given from the openvpn-server.
 
